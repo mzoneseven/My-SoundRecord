@@ -1,0 +1,10 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="dot_interval">7dp</dimen>
+    <dimen name="title_margine_top">30dp</dimen>
+    <dimen name="listview_fromY">160px</dimen>
+    <dimen name="recorder_btn_merginbottom">65dp</dimen>
+</resources>

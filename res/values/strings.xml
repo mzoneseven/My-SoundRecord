@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">LewaRecorder</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="tv_title_recoder">Recorder</string>
+    <string name="tv_title_recoder_file">Record files</string>
+    <string name="rename">Rename</string>
+    <string name="delete">Delete</string>
+    <string name="no_sdcard">Has no SD card</string>
+    <string name="save_dialog_title">Save Recoder</string>
+    <string name="cancle_dialog_title">Cancel</string>
+    <string name="cancle_dialog_message">Confirm to cancle?</string>
+    <string name="cancle">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="file_name_is_nll">File name can not be null</string>
+    <string name="delete_msg">Confirm to delete?</string>
+    <string name="warning">Warning</string>
+    <string name="renaame_msg">File name:</string>
+    <string name="time">"00:00"</string>
+    <string name="recording">Recording</string>
+    <string name="record_pause">Record paused</string>
+    <string name="status_recording">Recording</string>
+    <string name="status_record_pause">Record paused</string>
+    <string name="status_playing">Playing</string>
+    <string name="status_play_pause">Play paused</string>
+    <string name="file_name_formater1"><xliff:g id="hourminutes">%1$s</xliff:g>, <xliff:g id="monthday">%2$s</xliff:g></string>
+    <string name="file_name_formater3"><xliff:g id="yearmonthday">%1$s</xliff:g>_<xliff:g id="hourminutes">%2$s</xliff:g></string>
+    <string name="str_file_info_hour">h</string>
+    <string name="str_file_info_min">m</string>
+    <string name="str_file_info_second">s</string>
+    
+    
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+     android:id="@+id/renameUnit"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal">
+ 		<com.android.recorder.view.RenameView
+ 		    android:id="@+id/renameview"
+ 		    android:layout_width="wrap_content"
+ 		    android:layout_weight="1" 
+ 		    android:gravity="center"
+ 		    android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+ 		</com.android.recorder.view.RenameView>
+        <View 
+            android:layout_height="match_parent"
+            android:layout_width="1px"
+            android:background="#38383838"/>
+        <com.android.recorder.view.RenameView
+ 		    android:id="@+id/deleteview"
+ 		    android:layout_width="wrap_content"
+ 		    android:layout_weight="1" 
+ 		     android:gravity="center"
+ 		    android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+ 		</com.android.recorder.view.RenameView>
+</LinearLayout>

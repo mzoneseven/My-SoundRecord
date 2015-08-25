@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_rename"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+     >
+
+    <ImageButton
+        android:id="@+id/btn_rename_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:src="@drawable/rename"
+        android:clickable="false"
+        />
+
+    <TextView
+        android:id="@+id/tv_rename_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/rename"
+        android:clickable="false"
+        android:textColor="#383838"
+        android:visibility = "invisible"
+        android:textSize="17sp" />
+
+</LinearLayout>

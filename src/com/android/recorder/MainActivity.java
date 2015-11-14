@@ -119,13 +119,13 @@ public class MainActivity extends Activity implements OnClickListener,
     private Dialog mMenuDialog;
     private NotificationManager mNotificationManager;
 
-    private static final String TAG = "LewaRecorder_MainActivity";
+    private static final String TAG = "androidRecorder_MainActivity";
 
-    private static final String BTN_STOP_PRESS_ACTION = "com.lewa.lewarecorder.btnstop";
-    private static final String BTN_PAUSE_PRESS_ACTION = "com.lewa.lewarecorder.btnpause";
-    private static final String BTN_CANCEL_PRESS_ACTION = "com.lewa.lewarecorder.btncancel";
-    private static final String ACTION_SOUND_REC = "com.lewa.action.STATUS_SOUND_REC";
-    private static final String ACTION_RECORDER_PLAY_VIEWER = "com.lewa.lewarecorder.PLAY_RECORDER_VIEWER";
+    private static final String BTN_STOP_PRESS_ACTION = "com.android.androidrecorder.btnstop";
+    private static final String BTN_PAUSE_PRESS_ACTION = "com.android.androidrecorder.btnpause";
+    private static final String BTN_CANCEL_PRESS_ACTION = "com.android.androidrecorder.btncancel";
+    private static final String ACTION_SOUND_REC = "com.android.action.STATUS_SOUND_REC";
+    private static final String ACTION_RECORDER_PLAY_VIEWER = "com.android.androidrecorder.PLAY_RECORDER_VIEWER";
 
     private static final int FLAG_SAVE = 1;
     private static final int FLAG_CANCLE = 2;
@@ -307,7 +307,7 @@ public class MainActivity extends Activity implements OnClickListener,
         mBtnCancle.setOnClickListener(this);
         mBtnSave.setOnClickListener(this);
         // TODO
-        // load app files on /LEWA/Recorder/
+        // load app files on /android/Recorder/
         // FileUtil.loadAllFiles();
 
         list_mp3 = FileUtil.scanFileItem();

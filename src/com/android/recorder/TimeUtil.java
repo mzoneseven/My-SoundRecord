@@ -17,7 +17,7 @@ public class TimeUtil {
     /**
      * 录音文件需要存储的路径
      */
-    public static String FILE_DIR = "/storage/sdcard0/LEWA/Recorder/";
+    public static String FILE_DIR = "/storage/sdcard0/android/Recorder/";
 
     public static String TAG = "TimeUtil";
 
@@ -77,14 +77,14 @@ public class TimeUtil {
         String filename = null;
         Locale locale = Locale.getDefault();
         String language = locale.getLanguage();
-        // Lewa add for pr750225 ,set 12 Hour be default value
+        // android add for pr750225 ,set 12 Hour be default value
         // TODO bellow will be better: boolean is24Hour =
         // DateFormat.is24HourFormat(context);
         if (null == is12) {
             is12 = DEFAULT_TIME_12_24;
         }
 
-        // Lewa end
+        // android end
         if (HOURS_12.equals(is12)) {
             if ("zh".equals(language)) {
                 String am = context.getResources().getString(R.string.am);

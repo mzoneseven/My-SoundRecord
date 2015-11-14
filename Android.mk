@@ -31,12 +31,12 @@ LOCAL_MULTILIB := 32
 LOCAL_STATIC_JAVA_LIBRARIES := \
     android-support-v13 \
     android-support-v4 \
-    lewa-support-v7-appcompat \
-    com.lewa.themes
+    android-support-v7-appcompat \
+    com.android.themes
     
 
 
-LOCAL_PACKAGE_NAME := LewaRecorder
+LOCAL_PACKAGE_NAME := androidRecorder
 LOCAL_CERTIFICATE := platform
 include $(BUILD_PACKAGE)
 include $(call all-makefiles-under,$(LOCAL_PATH))

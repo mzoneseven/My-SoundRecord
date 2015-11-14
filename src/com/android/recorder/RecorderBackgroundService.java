@@ -7,7 +7,7 @@ import android.util.Log;
 
 public class RecorderBackgroundService extends Service {
 
-    public static final String STATUS_CHANGE_ACTION = "com.lewa.lewarecorder.STATUS_CHANGE";
+    public static final String STATUS_CHANGE_ACTION = "com.android.androidrecorder.STATUS_CHANGE";
     public static final String ACTION_EXTRA = "record_btn"; // from status bar's
                                                             // broadcast
     private static final String TAG = "RecorderBackgroundService";

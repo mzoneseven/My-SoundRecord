@@ -639,7 +639,7 @@ containing a value of this type.
         public static final int gray_progress=0x7f020007;
         public static final int gray_proress=0x7f020008;
         public static final int ic_launcher=0x7f020009;
-        public static final int lewa_sys_dl_icon=0x7f02000a;
+        public static final int android_sys_dl_icon=0x7f02000a;
         public static final int listview_background=0x7f02000b;
         public static final int logo=0x7f02000c;
         public static final int normal=0x7f02000d;
@@ -805,7 +805,7 @@ containing a value of this type.
         public static final int DialogAnimationStyle=0x7f080007;
         public static final int RecoderSeekBar=0x7f080002;
         /**  
-       parent="@lewa:style/V5.Theme"
+       parent="@android:style/V5.Theme"
         
          */
         public static final int Theme_RecorderV5StyleNew=0x7f08000a;

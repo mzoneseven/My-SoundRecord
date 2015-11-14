@@ -26,6 +26,6 @@ $(LAME_LIBMP3_DIR)/set_get.c \
 $(LAME_LIBMP3_DIR)/takehiro.c \
 $(LAME_LIBMP3_DIR)/vbrquantize.c \
 $(LAME_LIBMP3_DIR)/version.c \
-com_lewa_lewarecorder_Mp3Encode.c
+com_android_androidrecorder_Mp3Encode.c
 
 include $(BUILD_SHARED_LIBRARY)
